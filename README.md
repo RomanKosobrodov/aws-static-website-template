@@ -24,7 +24,7 @@ In order to use this template you need the following:
 
 ## Using the template
 
-You can clone this repository or simply [download the template](/blob/main/template.yaml) and follow this steps:
+You can clone this repository or simply [download the template](https://raw.githubusercontent.com/RomanKosobrodov/aws-static-website-template/main/template.yaml) and follow this steps:
 
 1. Login to your [AWS Console](https://console.aws.amazon.com). If you only have a root account, log in as root. Otherwise, use an account with administrative permissions.
 2. Navigate to CloudFormation console.
@@ -54,7 +54,7 @@ This will create AWS credentials for a user called `blog-writer`. You can choose
 
 ## Testing the Build
 
-Everything is ready now to test our site! [Download](/blob/main/index.html) a placeholder HTML document or create your own `index.html` file and then type:
+Everything is ready now to test our site! [Download](https://raw.githubusercontent.com/RomanKosobrodov/aws-static-website-template/main/index.html) a placeholder HTML document or create your own `index.html` file and then type:
 
 ```bash
 aws s3 cp index.html s3://<site-bucket-name> --profile <name>
