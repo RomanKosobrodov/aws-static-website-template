@@ -28,7 +28,7 @@ Parameters:
     Description: >
       Existing Hosted Zone ID. 
       If this list is empty then you have not created a hosted zone yet.
-      A hosted zone can be created in AWS Route once you have your domain registered.
+      A hosted zone can be created in AWS Route53 once you have your domain registered.
   DomainName:
     Type: String
     Description: >
