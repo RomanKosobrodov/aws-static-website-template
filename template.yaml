@@ -98,7 +98,7 @@ Resources:
     Type: AWS::CloudFront::Function
     Condition: CreateRewriteFunction
     Properties:
-      Name: !Sub "append-index-to-${DomainName}"
+      Name: !Sub "append-index-to-${SiteBucket}"
       AutoPublish: true
       FunctionCode: |
         function handler(event) {
